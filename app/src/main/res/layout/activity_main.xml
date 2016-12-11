@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.service.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_bindservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_bindservice" />
+
+    <Button
+        android:id="@+id/btn_unbindservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_unbindservice" />
+
+    <Button
+        android:id="@+id/btn_getservicestatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_getservicestatus" />
+
+    <Button
+        android:id="@+id/btn_startservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_startservice" />
+
+    <Button
+        android:id="@+id/btn_stoptservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_stoptservice" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        android:enabled="false"
+        android:text="下面测试Service和IntentService的性能比较"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_testservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="btn_testService" />
+
+    <Button
+        android:id="@+id/btn_testIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="btn_testIntentService" />
+
+</LinearLayout>
